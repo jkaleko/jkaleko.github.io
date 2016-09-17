@@ -18,7 +18,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  /*color: #18BC9C;*/
+  color: #89cff0; /* Baby blue */
   outline: none;
 }
 h1,
@@ -54,15 +55,19 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  /*background-color: #18BC9C;*/
+  background-color: #89cff0; /* Baby blue */
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  /* border-color: #2C3E50; */
+  border-color: #f0aa89; /* Brown */
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  /*color: #2C3E50;*/
+  color: #f0aa89; /* Brown */
+  
 }
 .img-centered {
   margin: 0 auto;
@@ -105,7 +110,8 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  /*background: #2C3E50;*/
+  background: #f0aa89;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -130,7 +136,8 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  /*color: #18BC9C;*/
+  color: #89cff0;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
