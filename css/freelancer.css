@@ -11,10 +11,10 @@
 
 .resizable {
     display: block;
-    width: 640px;
-    height: 360px;
-    padding: 30px;
-    border: 2px solid gray;
+    /*width: 640px;
+    height: 360px;*/
+    padding: 0px;
+    border: 0px;
     overflow: hidden;
     position: relative;
 }
