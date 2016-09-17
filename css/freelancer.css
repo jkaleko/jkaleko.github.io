@@ -61,12 +61,12 @@ hr.star-light:after {
 }
 hr.star-primary {
   /* border-color: #2C3E50; */
-  border-color: #f0aa89; /* Brown */
+  border-color: #899cf0; /* Purple */
 }
 hr.star-primary:after {
   background-color: white;
   /*color: #2C3E50;*/
-  color: #f0aa89; /* Brown */
+  color: #899cf0; /* Purple */
   
 }
 .img-centered {
