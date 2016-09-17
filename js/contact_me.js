@@ -29,6 +29,7 @@ $(function() {
                     email: email,
                     message: message
                 },
+                dataType: 'html',
                 cache: false,
                 success: function() {
                     // Enable button & show success message
