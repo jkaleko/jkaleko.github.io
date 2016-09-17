@@ -5,9 +5,13 @@
 <script language="javascript" type="text/javascript">
 $(function(){
     $('.close').click(function(){      
-        $('iframe').attr('src', $('iframe').attr('src'));
+        $("iframe").each(function() { 
+        var src= $(this).attr('src');
+        $(this).attr('src',src); 
+        });
     });
 });
+    
 </script>
 
 <head>
