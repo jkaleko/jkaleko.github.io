@@ -7,13 +7,12 @@
  iframe {
   height: 100%;
   width: 100%;
-  display: block;
 }
 
 .resizable {
     display: block;
-    /*width: 640px;
-    height: 360px;*/
+    /*width: 640px;*/
+    height: 360px;
     padding: 0px;
     border: 0px;
     overflow: hidden;
