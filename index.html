@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script>
+var iframe = document.getElementById('nofocusvideo');
+// $f == Froogaloop
+var player = $f(iframe);
+
+$('.modal').on('hidden.bs.modal', function () {
+player.api('pause');
+})
+
+$('.modal').on('shown.bs.modal', function () {
+player.api('play');
+})
+</script>
+
 <head>
 
     <meta charset="utf-8">
@@ -315,7 +330,7 @@
                             <h2>24: Live Another Day / Talladega Cobrand</h2>
                             <hr class="star-primary">
                             
-                            <div class="resizable"><iframe src="https://player.vimeo.com/video/106208177" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            <div class="resizable"><iframe src="https://player.vimeo.com/video/106208177" name="vimeoplayer" id="nofocusvideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                             <!-- <img src="img/portfolio/kiefer.png" class="img-responsive img-centered" alt=""> -->
                             <br><br>
                             <p>Cross promotion for 24: Live Another Day on FOX and NASCAR on FOX Sports 1. Spot stars Kiefer Sutherland as Jack Bauer.</p>
