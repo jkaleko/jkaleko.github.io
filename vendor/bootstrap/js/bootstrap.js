@@ -981,7 +981,7 @@ if (typeof jQuery === 'undefined') {
     this.escape()
     this.resize()
 
-    this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $('iframe').attr("src", jQuery("iframe").attr("src")))
+   // this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $('iframe').attr("src", jQuery("iframe").attr("src")))
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $.proxy(this.hide, this))
     
     
