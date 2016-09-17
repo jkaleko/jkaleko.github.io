@@ -7,8 +7,8 @@
  iframe {
   height: 360px;
   width: 640px;
-  resize: both;
-  overflow: auto;
+  /*resize: both;
+  overflow: auto;*/
 }
 
 body {
