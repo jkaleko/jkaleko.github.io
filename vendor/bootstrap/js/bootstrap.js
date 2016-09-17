@@ -982,8 +982,9 @@ if (typeof jQuery === 'undefined') {
     this.resize()
 
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function () {
-      $('iframe').attr("src", jQuery("iframe").attr("src"));
       $.proxy(that.hide, that);
+      $('iframe').attr("src", jQuery("iframe").attr("src"));
+      
     });
     
     
