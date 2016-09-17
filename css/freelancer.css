@@ -5,10 +5,18 @@
  */
  
  iframe {
-  height: 360px;
-  width: 640px;
-  /*resize: both;
-  overflow: auto;*/
+  height: 100%;
+  width: 100%;
+}
+
+.resizable {
+    display: block;
+    width: 640px;
+    height: 360px;
+    padding: 30px;
+    border: 2px solid gray;
+    overflow: hidden;
+    position: relative;
 }
 
 body {
