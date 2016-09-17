@@ -71,7 +71,7 @@ header {
   text-align: center;
   /*background: #18BC9C;*/
   /*background: #89cff0;*/
-  background-image: url("/bg.jpg");
+  background-image: url("bg.jpg");
   color: white;
 }
 header .container {
