@@ -341,6 +341,26 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+
+/*Added by Jason for View Portfolio button */
+.btn-outline-light {
+  color: #18BC9C;
+  font-size: 20px;
+  border: solid 2px #18BC9C;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active,
+.btn-outline-light.active {
+  color: white;
+  background: #18BC9C;
+  border: solid 2px #18BC9C;
+}
+/*-------------------------*/
+
 .btn-primary {
   color: white;
   background-color: #2C3E50;
