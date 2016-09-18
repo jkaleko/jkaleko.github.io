@@ -416,7 +416,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
+  background-color: #5cbdea; /*This color must be changed manually as well.  It is the second step from the left on monocromatic color on colorhexa.com*/
   border-color: #11866f;
 }
 .btn-success:active,
