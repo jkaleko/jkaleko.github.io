@@ -982,7 +982,7 @@ if (typeof jQuery === 'undefined') {
     this.resize()
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
-        $.proxy(this.hide, this)()
+        //$.proxy(that.hide, that)()
         $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
               // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         })
