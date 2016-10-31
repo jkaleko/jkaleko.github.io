@@ -964,17 +964,6 @@ if (typeof jQuery === 'undefined') {
     return this.isShown ? this.hide() : this.show(_relatedTarget)
   }
 
-  //TESTING OUT A NEW WAY OF DOING IT.  A FUNCTION THAT RESETS WHEN IT SENSES THE MODAL CLOSING.  ONE FOR EACH VID.
-  $("#portfolioModal1").on(hidden.bs.modal, function () {
-    $("#portfolioModal1 iframe").attr("src", '');
-  });
-    $("#portfolioModal2").on(hidden.bs.modal, function () {
-    $("#portfolioModal2 iframe").attr("src", '');
-  });  
-  $("#portfolioModal3").on(hidden.bs.modal, function () {
-    $("#portfolioModal3 iframe").attr("src", '');
-  });
-  
   Modal.prototype.show = function (_relatedTarget) {
     var that = this
     var e    = $.Event('show.bs.modal', { relatedTarget: _relatedTarget })
