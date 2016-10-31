@@ -983,12 +983,12 @@ if (typeof jQuery === 'undefined') {
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
   
-        $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
+       // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
               // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         $.proxy(that.hide, that)()
         })
     
-    });
+    })
     
     this.$dialog.on('mousedown.dismiss.bs.modal', function () {
       that.$element.one('mouseup.dismiss.bs.modal', function (e) {
