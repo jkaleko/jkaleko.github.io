@@ -986,13 +986,13 @@ if (typeof jQuery === 'undefined') {
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
         $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
      
-        $("#portfolioModal4 iframe").attr("src", '');
-        $("#portfolioModal5 iframe").attr("src", '');
-        $("#portfolioModal6 iframe").attr("src", '');
+        $("#portfolioModal4 iframe").attr("src", "https://player.vimeo.com/video/108087257");
+        $("#portfolioModal5 iframe").attr("src", "https://player.vimeo.com/video/183158777");
+        $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/144557843");
       
-        $("#portfolioModal7 iframe").attr("src", '');
-        $("#portfolioModal8 iframe").attr("src", '');
-        $("#portfolioModal9 iframe").attr("src", '');
+        $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/108403435");
+        $("#portfolioModal8 iframe").attr("src", "https://player.vimeo.com/video/131813600");
+        $("#portfolioModal9 iframe").attr("src", "https://player.vimeo.com/video/108288845");
        // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
               // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         $.proxy(that.hide, that)()
