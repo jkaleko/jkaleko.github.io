@@ -982,13 +982,22 @@ if (typeof jQuery === 'undefined') {
     this.resize()
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
-  
+        $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/106208177");
+        $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
+        $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
+     
+        $("#portfolioModal4 iframe").attr("src", '');
+        $("#portfolioModal5 iframe").attr("src", '');
+        $("#portfolioModal6 iframe").attr("src", '');
+      
+        $("#portfolioModal7 iframe").attr("src", '');
+        $("#portfolioModal8 iframe").attr("src", '');
+        $("#portfolioModal9 iframe").attr("src", '');
        // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
               // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         $.proxy(that.hide, that)()
     })
     
-    //})
     
     this.$dialog.on('mousedown.dismiss.bs.modal', function () {
       that.$element.one('mouseup.dismiss.bs.modal', function (e) {
