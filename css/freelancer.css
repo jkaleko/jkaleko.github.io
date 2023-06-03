@@ -85,7 +85,16 @@ header {
   text-align: center;
   background: #89cff0;
   color: white;
-}
+  background-attachment: scroll;
+  background-image: url(/img/bg.png);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  
+  }
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
