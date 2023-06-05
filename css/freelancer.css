@@ -96,7 +96,7 @@ header {
   
   }
 header .container {
-  padding-top: 50px; /* used to be 100px */
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 header img {
@@ -202,7 +202,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0; /* used to be 100px */
 }
 section h2 {
   margin: 0;
