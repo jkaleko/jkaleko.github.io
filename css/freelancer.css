@@ -96,9 +96,8 @@ header {
   
   }
 header .container {
-  padding-top: 100px;
-  /* padding-bottom: 50px; */
- padding-bottom: 0px;
+  padding-top: 50px; /* used to be 100px */
+  padding-bottom: 50px;
 }
 header img {
   display: block;
