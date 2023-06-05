@@ -988,9 +988,9 @@ if (typeof jQuery === 'undefined') {
      
         $("#portfolioModal4 iframe").attr("src", "https://player.vimeo.com/video/108087257");
         $("#portfolioModal5 iframe").attr("src", "https://player.vimeo.com/video/207525071");
-        $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/144557843");
+        $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/833358314");
       
-        $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/108403435");
+        $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/833357375");
         $("#portfolioModal8 iframe").attr("src", "https://player.vimeo.com/video/131813600");
         $("#portfolioModal9 iframe").attr("src", "https://player.vimeo.com/video/108288845");
       
