@@ -264,7 +264,7 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) { /* used to be min-width ?? */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
