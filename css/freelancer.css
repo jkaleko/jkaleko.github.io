@@ -214,7 +214,7 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 25px 0; /* used to be 75px */
   }
   section.first {
     padding-top: 75px;
