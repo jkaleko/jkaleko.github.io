@@ -97,7 +97,7 @@ header {
   }
 header .container 
   padding-top: 100px;
-  padding-bottom: 0px; /* used to be 50px */
+  padding-bottom: 50px;
 }
 header img {
   display: block;
@@ -264,7 +264,7 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 899px) { /* used dto be 767px */
+@media (min-width: 899px) { /* used to be 767px */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
