@@ -994,7 +994,7 @@ if (typeof jQuery === 'undefined') {
         $("#portfolioModal8 iframe").attr("src", "https://player.vimeo.com/video/131813600");
         $("#portfolioModal9 iframe").attr("src", "https://player.vimeo.com/video/108288845");
       
-        $("#shortsModal1 iframe").attr("src", "https://player.vimeo.com/video/832706857");
+        $("#shortsModal1 iframe").attr("src", "https://player.vimeo.com/video/836664567");
         $("#shortsModal2 iframe").attr("src", "https://player.vimeo.com/video/832706857");
         $("#shortsModal3 iframe").attr("src", "https://player.vimeo.com/video/832709227");
        // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
