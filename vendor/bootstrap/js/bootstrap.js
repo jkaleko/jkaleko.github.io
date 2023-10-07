@@ -982,6 +982,7 @@ if (typeof jQuery === 'undefined') {
     this.resize()
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
+        $("#portfolioModalBBQ iframe").attr("src", "https://player.vimeo.com/video/871114897");
         $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/106208177");
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
         $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
