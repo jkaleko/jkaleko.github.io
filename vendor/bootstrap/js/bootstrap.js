@@ -983,12 +983,12 @@ if (typeof jQuery === 'undefined') {
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
         $("#portfolioModalBBQ iframe").attr("src", "https://player.vimeo.com/video/871114897");
-        $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/106208177");
+        $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/1054226821");
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
         $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
      
         $("#portfolioModal4 iframe").attr("src", "https://player.vimeo.com/video/108087257");
-        $("#portfolioModal5 iframe").attr("src", "https://player.vimeo.com/video/207525071");
+        $("#portfolioModal5 iframe").attr("src", "https://player.vimeo.com/video/106208177");
         $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/833358314");
       
         $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/833357375");
