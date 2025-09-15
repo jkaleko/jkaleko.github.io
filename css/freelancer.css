@@ -208,6 +208,10 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
+section.hello {
+  background: #2C3E50;
+  color: white;
+}
 section.success {
   background: #89cff0;
   color: white;
