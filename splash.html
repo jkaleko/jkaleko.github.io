@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jason Kaleko — Author</title>
+  <meta name="description" content="Jason Kaleko is an author of psychological and supernatural horror." />
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --fg: #f2f2f2;
+      --muted: #9a9a9a;
+      --accent: #b30000;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #1a1a1a, var(--bg));
+      color: var(--fg);
+      font-family: "Georgia", "Times New Roman", serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 6vw, 5rem);
+      margin: 0;
+      letter-spacing: 0.05em;
+    }
+
+    .tagline {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 600px;
+    }
+
+    .divider {
+      width: 80px;
+      height: 3px;
+      background: var(--accent);
+      margin: 2rem 0;
+    }
+
+    .cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      text-decoration: none;
+      color: var(--fg);
+      border: 1px solid var(--fg);
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      transition: all 0.2s ease;
+    }
+
+    .cta a.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .cta a:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    section {
+      margin-top: 6rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.08em;
+    }
+
+    p {
+      max-width: 720px;
+      color: #d8d8d8;
+    }
+
+    footer {
+      margin-top: 8rem;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid #222;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    footer a:hover {
+      color: var(--fg);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        min-height: 80vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>Jason Kaleko</h1>
+    <div class="divider"></div>
+    <p class="tagline">
+      Author of psychological and supernatural horror. Stories about isolation,
+      obsession, and what waits beneath the surface.
+    </p>
+
+    <div class="cta">
+      <a href="#books" class="primary">Books</a>
+      <a href="#about">About</a>
+      <a href="mailto:contact@jasonkaleko.com">Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="books">
+      <h2>Books</h2>
+      <p>
+        Dark, unsettling fiction rooted in character, dread, and slow-burning
+        unease. Full catalog and upcoming releases coming soon.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Jason Kaleko writes horror that leans psychological, intimate, and
+        strange. His work explores fear as a quiet presence—something that grows
+        slowly, patiently, and without warning.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>
+      © <span id="year"></span> Jason Kaleko
+    </p>
+    <p>
+      <a href="#">Newsletter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Goodreads</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
