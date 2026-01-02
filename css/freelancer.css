@@ -83,7 +83,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #89cff0;
+  background: #2C3E50; /* old= #89cff0 */ 
   color: white;
   background-attachment: scroll;
   /* background-image: url(/img/bg.png); */
