@@ -32,7 +32,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #89cff0;
+  color: #2C3E50; /*old = #89cff0 */
   outline: none;
 }
 h1,
