@@ -213,7 +213,7 @@ section.hello {
   color: white;
 }
 section.success {
-  background: #89cff0;
+  background: #2C3E50; /*old = #89cff0 */
   color: white;
 }
 @media (max-width: 767px) {
