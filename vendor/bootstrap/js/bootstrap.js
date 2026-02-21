@@ -983,7 +983,7 @@ if (typeof jQuery === 'undefined') {
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
         $("#highlight1vid1 iframe").attr("src", "https://player.vimeo.com/video/1054225913");
-        $("#highlight1vid2 iframe").attr("src", "https://player.vimeo.com/video/1054226821");
+        $("#highlight1vid2 iframe").attr("src", "https://player.vimeo.com/video/1054227734");
         $("#highlight1vid3 iframe").attr("src", "https://player.vimeo.com/video/1054226821");
 
         $("#highlight2vid1 iframe").attr("src", "https://player.vimeo.com/video/871114897");
