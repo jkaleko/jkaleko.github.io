@@ -994,7 +994,14 @@ if (typeof jQuery === 'undefined') {
         $("#highlight3vid3 iframe").attr("src", "https://player.vimeo.com/video/108087310");
       
         $("#more1vid1 iframe").attr("src", "https://player.vimeo.com/video/108151095");
-      
+
+        $("#more2vid1 iframe").attr("src", "https://player.vimeo.com/video/207525071");
+        $("#more2vid2 iframe").attr("src", "https://player.vimeo.com/video/183158777");
+
+        $("#more3vid1 iframe").attr("src", "https://player.vimeo.com/video/1051604619");
+        $("#more3vid2 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
+        $("#more3vid3 iframe").attr("src", "https://player.vimeo.com/video/1051605600");
+              
         $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
         $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
