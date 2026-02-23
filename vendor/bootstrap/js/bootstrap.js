@@ -1018,6 +1018,11 @@ if (typeof jQuery === 'undefined') {
         $("#more9vid2 iframe").attr("src", "https://player.vimeo.com/video/108292835");
         $("#more9vid3 iframe").attr("src", "https://player.vimeo.com/video/108253786");
         $("#more9vid4 iframe").attr("src", "https://player.vimeo.com/video/108152460");
+
+        $("#more10vid1 iframe").attr("src", "https://player.vimeo.com/video/131813599");
+        $("#more10vid2 iframe").attr("src", "https://player.vimeo.com/video/131813600");
+
+        $("#more11vid1 iframe").attr("src", "https://player.vimeo.com/video/108403435");
       
         $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
