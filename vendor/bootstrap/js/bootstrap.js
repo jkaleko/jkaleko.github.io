@@ -1024,24 +1024,16 @@ if (typeof jQuery === 'undefined') {
 
         $("#more11vid1 iframe").attr("src", "https://player.vimeo.com/video/108403435");
       
-        $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
-        $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
-        $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
-     
-        $("#portfolioModal4 iframe").attr("src", "https://player.vimeo.com/video/108087257");
-        $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/833358314");
+        $("#more12vid1 iframe").attr("src", "https://player.vimeo.com/video/833358314");
       
-        $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/833357375");
-        $("#portfolioModal8 iframe").attr("src", "https://player.vimeo.com/video/131813600");
-        $("#portfolioModal9 iframe").attr("src", "https://player.vimeo.com/video/108288845");
+        $("#more13vid1 iframe").attr("src", "https://player.vimeo.com/video/833357375");
 
-        $("#portfolioModal10 iframe").attr("src", "https://player.vimeo.com/video/1051605600");
-        $("#portfolioModal11 iframe").attr("src", "https://player.vimeo.com/video/1051604619");
-        $("#portfolioModal12 iframe").attr("src", "https://player.vimeo.com/video/832736923");
+        $("#more14vid1 iframe").attr("src", "https://player.vimeo.com/video/832736082");
+        $("#more14vid2 iframe").attr("src", "https://player.vimeo.com/video/832736923");
+        $("#more14vid3 iframe").attr("src", "https://player.vimeo.com/video/832735322");
       
-        $("#shortsModal1 iframe").attr("src", "https://player.vimeo.com/video/836664567");
-        $("#shortsModal2 iframe").attr("src", "https://player.vimeo.com/video/832706857");
-        $("#shortsModal3 iframe").attr("src", "https://player.vimeo.com/video/832709227");
+        $("#more15vid1 iframe").attr("src", "https://player.vimeo.com/video/833359887");
+
        // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
               // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         $.proxy(that.hide, that)()
