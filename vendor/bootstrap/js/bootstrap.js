@@ -1001,13 +1001,29 @@ if (typeof jQuery === 'undefined') {
         $("#more3vid1 iframe").attr("src", "https://player.vimeo.com/video/1051604619");
         $("#more3vid2 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
         $("#more3vid3 iframe").attr("src", "https://player.vimeo.com/video/1051605600");
-              
+
+        $("#more6vid1 iframe").attr("src", "https://player.vimeo.com/video/106208177");
+
+        $("#more7vid1 iframe").attr("src", "https://player.vimeo.com/video/145189877");
+        $("#more7vid2 iframe").attr("src", "https://player.vimeo.com/video/147405236");
+        $("#more7vid3 iframe").attr("src", "https://player.vimeo.com/video/149678951");
+        $("#more7vid4 iframe").attr("src", "https://player.vimeo.com/video/148913711");
+        $("#more7vid5 iframe").attr("src", "https://player.vimeo.com/video/148136009");
+        $("#more7vid6 iframe").attr("src", "https://player.vimeo.com/video/144557843");
+        $("#more7vid7 iframe").attr("src", "https://player.vimeo.com/video/252410194");
+        $("#more7vid8 iframe").attr("src", "https://player.vimeo.com/video/270565505");
+        $("#more7vid9 iframe").attr("src", "https://player.vimeo.com/video/252412695");
+
+        $("#more9vid1 iframe").attr("src", "https://player.vimeo.com/video/108152449");
+        $("#more9vid2 iframe").attr("src", "https://player.vimeo.com/video/108292835");
+        $("#more9vid3 iframe").attr("src", "https://player.vimeo.com/video/108253786");
+        $("#more9vid4 iframe").attr("src", "https://player.vimeo.com/video/108152460");
+      
         $("#portfolioModal1 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
         $("#portfolioModal2 iframe").attr("src", "https://player.vimeo.com/video/145189877");
         $("#portfolioModal3 iframe").attr("src", "https://player.vimeo.com/video/108151095");
      
         $("#portfolioModal4 iframe").attr("src", "https://player.vimeo.com/video/108087257");
-        $("#portfolioModal5 iframe").attr("src", "https://player.vimeo.com/video/106208177");
         $("#portfolioModal6 iframe").attr("src", "https://player.vimeo.com/video/833358314");
       
         $("#portfolioModal7 iframe").attr("src", "https://player.vimeo.com/video/833357375");
