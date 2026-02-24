@@ -988,7 +988,8 @@ if (typeof jQuery === 'undefined') {
 
         $("#highlight2vid1 iframe").attr("src", "https://player.vimeo.com/video/871114897");
         $("#highlight2vid2 iframe").attr("src", "https://player.vimeo.com/video/1166088791");
-
+        $("#highlight2vid1b iframe").attr("src", "https://player.vimeo.com/video/871114897");
+      
         $("#highlight3vid1 iframe").attr("src", "https://player.vimeo.com/video/108087257");
         $("#highlight3vid2 iframe").attr("src", "https://player.vimeo.com/video/106208557");
         $("#highlight3vid3 iframe").attr("src", "https://player.vimeo.com/video/108087310");
