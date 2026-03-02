@@ -982,6 +982,10 @@ if (typeof jQuery === 'undefined') {
     this.resize()
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
+      //this is where there used to be a million iframes loaded.
+      $(this).closest('.modal').find('iframe').each(function () {
+        $(this).attr('src', $(this).attr('src'));
+      });
         $.proxy(that.hide, that)()
     })
     
