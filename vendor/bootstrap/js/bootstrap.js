@@ -982,61 +982,6 @@ if (typeof jQuery === 'undefined') {
     this.resize()
     
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', function() {
-        $("#highlight1vid1 iframe").attr("src", "https://player.vimeo.com/video/1054225913");
-        $("#highlight1vid2 iframe").attr("src", "https://player.vimeo.com/video/1054227734");
-        $("#highlight1vid3 iframe").attr("src", "https://player.vimeo.com/video/1054226821");
-
-        $("#highlight2vid1 iframe").attr("src", "https://player.vimeo.com/video/871114897");
-        $("#highlight2vid2 iframe").attr("src", "https://player.vimeo.com/video/1166088791");
-        $("#highlight2vid1b iframe").attr("src", "https://player.vimeo.com/video/871114897");
-      
-        $("#highlight3vid1 iframe").attr("src", "https://player.vimeo.com/video/108087257");
-        $("#highlight3vid2 iframe").attr("src", "https://player.vimeo.com/video/106208557");
-        $("#highlight3vid3 iframe").attr("src", "https://player.vimeo.com/video/108087310");
-      
-        $("#more1vid1 iframe").attr("src", "https://player.vimeo.com/video/108151095");
-
-        $("#more2vid1 iframe").attr("src", "https://player.vimeo.com/video/207525071");
-        $("#more2vid2 iframe").attr("src", "https://player.vimeo.com/video/183158777");
-
-        $("#more3vid1 iframe").attr("src", "https://player.vimeo.com/video/1051604619");
-        $("#more3vid2 iframe").attr("src", "https://player.vimeo.com/video/1053967762");
-        $("#more3vid3 iframe").attr("src", "https://player.vimeo.com/video/1051605600");
-
-        $("#more6vid1 iframe").attr("src", "https://player.vimeo.com/video/106208177");
-
-        $("#more7vid1 iframe").attr("src", "https://player.vimeo.com/video/145189877");
-        $("#more7vid2 iframe").attr("src", "https://player.vimeo.com/video/147405236");
-        $("#more7vid3 iframe").attr("src", "https://player.vimeo.com/video/149678951");
-        $("#more7vid4 iframe").attr("src", "https://player.vimeo.com/video/148913711");
-        $("#more7vid5 iframe").attr("src", "https://player.vimeo.com/video/148136009");
-        $("#more7vid6 iframe").attr("src", "https://player.vimeo.com/video/144557843");
-        $("#more7vid7 iframe").attr("src", "https://player.vimeo.com/video/252410194");
-        $("#more7vid8 iframe").attr("src", "https://player.vimeo.com/video/270565505");
-        $("#more7vid9 iframe").attr("src", "https://player.vimeo.com/video/252412695");
-
-        $("#more9vid1 iframe").attr("src", "https://player.vimeo.com/video/108152449");
-        $("#more9vid2 iframe").attr("src", "https://player.vimeo.com/video/108292835");
-        $("#more9vid3 iframe").attr("src", "https://player.vimeo.com/video/108253786");
-        $("#more9vid4 iframe").attr("src", "https://player.vimeo.com/video/108152460");
-
-        $("#more10vid1 iframe").attr("src", "https://player.vimeo.com/video/131813599");
-        $("#more10vid2 iframe").attr("src", "https://player.vimeo.com/video/131813600");
-
-        $("#more11vid1 iframe").attr("src", "https://player.vimeo.com/video/108403435");
-      
-        $("#more12vid1 iframe").attr("src", "https://player.vimeo.com/video/833358314");
-      
-        $("#more13vid1 iframe").attr("src", "https://player.vimeo.com/video/833357375");
-
-        $("#more14vid1 iframe").attr("src", "https://player.vimeo.com/video/832736082");
-        $("#more14vid2 iframe").attr("src", "https://player.vimeo.com/video/832736923");
-        $("#more14vid3 iframe").attr("src", "https://player.vimeo.com/video/832735322");
-      
-        $("#more15vid1 iframe").attr("src", "https://player.vimeo.com/video/833359887");
-
-       // $('iframe').attr("src", jQuery("iframe").attr("src")) // <-- Need to figure out how to pair this with above "this.hide function"
-              // Current issue: when placing the two commands in a nested function, the this.hide doesn't execute, even when rewritten as "that."
         $.proxy(that.hide, that)()
     })
     
@@ -2433,3 +2378,20 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+// === Custom iframe reset logic (safe, non-invasive) ===
+$(document).ready(function () {
+
+  // Store original src once
+  $('iframe').each(function () {
+    $(this).attr('data-src', $(this).attr('src'));
+  });
+
+  // Reset iframes when modal opens
+  $(document).on('show.bs.modal', '.modal', function () {
+    $(this).find('iframe').each(function () {
+      $(this).attr('src', $(this).data('src'));
+    });
+  });
+
+});
